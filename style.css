@@ -1,0 +1,49 @@
+:root {
+	--sky: #6bc2f1;
+}
+header {
+	min-height: 100vh;
+	background: url('img/header.jpg') center/cover no-repeat fixed;
+}
+.navbar-brand img {	margin: -.3rem 90px 0 0; }
+.my-menu { font: bold .9em "Roboto"; color: #252525 !important; }
+.my-sky-bg { background: var(--sky); }
+.my-sky-text { color: var(--sky); }
+.my-nav-bg { background: rgba(255,255,255,.8); }
+#welcome, #services  { padding: 120px 0; }
+#feature img { object-fit: cover ;}
+#services img{margin: 0 0 40px 0;}
+#services p{color: #606060;}
+#gallery{padding: 60px 0 30px 0; background: #f1f1f1;}
+#gallery img{width: 100%; }
+#testimonials{padding: 93px 0; color: #fff; background: var(--sky);}
+#testimonials span{ font: 5em "Roboto"; display: block; text-align: center;}
+#testimonials img { border-radius: 50%;}
+#contact {padding: 115px 0 105px 0;}
+#contact input{margin: 0 0 25px 0;}
+#contact button{border-color: var(--sky);}
+#contact button:hover{background: var(--sky);}
+.my-block{margin: auto;}
+.my-pad{padding: 0 15px;}
+.my-left-prev{padding: 0 35px 0 0;}
+.my-right-prev{padding: 0  0 0 35px;}
+.my-contact{font-size: 2em; margin: 0 0 60px 0;}
+h5{text-transform: capitalize;}
+h3{font-size: .9em;}
+h4{font-size: .8em;}
+footer{background: #072135;padding: 115px 0;}
+footer ul, footer p, footer a{ color: #596a78;}
+
+
+@media (max-width: 767.98px) {
+	.display-4 {
+		font-size: 2.5rem;
+		line-height: 1;
+		
+	}	
+}
+@media (min-width: 767.98px) {
+	#gallery img{padding: 0 30px 30px 0;}
+	.my-width {width: 50%;}
+	
+}
